@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+}
+
+group = 'com.github.vitalfae.station442-database'
+version = '1.0.0'
+
+description = 'Station 442 Database Bot'
+
+sourceCompatibility = 1.8
+
+// Javacord is on Maven central
+repositories {
+    mavenCentral()
+}
+
+// The dependencies of the bot. Javacord and Log4J for logging
+dependencies {
+    implementation group: 'org.javacord', name: 'javacord', version:'3.0.3'
+}
+
+mainClassName = 'Main'
