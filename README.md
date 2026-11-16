@@ -1,1 +1,1 @@
-This project was a difficult lesson for me to not store data in RAM. In my defense, I was a CS student who hadn't yet taken a database class. :)
+This is one of the worst implementations of a "database" (Discord bot or otherwise) possible, written by my human hand. A great example of what not to do, especially not when your host was a passively cooled Raspberry Pi that would constantly overheat and shut off. Especially ESPECIALLY because a shutdown would cause the entire "database" to be dropped, since THE ENTIRE "DATABASE" WAS STORED IN RAM.
